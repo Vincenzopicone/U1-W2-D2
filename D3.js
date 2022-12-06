@@ -68,7 +68,6 @@ if (N4 - N5 === 8) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let totalShoppingCart = 55
-let totalShoppingCart1 = 60
 const shippingCosts = 10
 
 if (totalShoppingCart < 50) {
@@ -76,13 +75,6 @@ if (totalShoppingCart < 50) {
 } else {
   console.log ("Totale da pagare:",totalShoppingCart)
 }
-/* if (totalShoppingCart1 < 50) {
-  console.log("Totale da pagare:", totalShoppingCart1+shippingCosts , "Compresa spedizione di 10")
-} else {
-  console.log ("Totale da pagare:",totalShoppingCart1)
-}*/
-
-
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -91,16 +83,13 @@ if (totalShoppingCart < 50) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-totalShoppingCart = totalShoppingCart * 0.8
-totalShoppingCart1 = totalShoppingCart1 * 0.8
-if (totalShoppingCart < 50) {
-  console.log("Totale da pagare:", totalShoppingCart+shippingCosts ,"Compresa spedizione di 10")
-} else {console.log ("Totale da pagare:",totalShoppingCart)
-}
-/*if (totalShoppingCart1 < 50) {
-  console.log("Totale da pagare:", totalShoppingCart1+shippingCosts , "Compresa spedizione di 10")
-} else {console.log ("Totale da pagare:",totalShoppingCart1)}*/
+let sconto = 20
+let BFtotalShoppingCart = totalShoppingCart - (totalShoppingCart*20/100)
 
+if (BFtotalShoppingCart < 50) {
+  console.log("Totale da pagare:", BFtotalShoppingCart+shippingCosts ,"Compresa spedizione di 10")
+} else {console.log ("Totale da pagare:",BFtotalShoppingCart)
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
