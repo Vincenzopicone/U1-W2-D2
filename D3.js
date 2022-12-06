@@ -199,11 +199,11 @@ console.log (me)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let arrayVuoto = []
+let array = []
 
-arrayVuoto = [1,2,3,4,5,6,7,8,9,10]
+array = [1,2,3,4,5,6,7,8,9,10]
 
-console.log (arrayVuoto)
+console.log (array)
 
 
 /* ESERCIZIO 15
@@ -212,6 +212,6 @@ console.log (arrayVuoto)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-arrayVuoto[9] = 100
+array[9] = 100
 
-console.log (arrayVuoto)
+console.log (array)
