@@ -165,9 +165,9 @@ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
-  city: "Toronto"
 }
 
+me.city = "Toronto"
 console.log(me)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
