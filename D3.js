@@ -45,11 +45,11 @@ console.log ("Divisibile per 5")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const N4= 16
+const N4= 17
 const N5= 8
 
 if (N4 === 8) {console.log("N4 Uguale a 8")} else if (N5 === 8) {console.log("N5 uguale a 8")} 
-if (N4 - N5 === 8) {console.log("La sottrazione è uguale a 8")}
+if (N4 - N5 === 8) {console.log("La sottrazione è uguale a 8")} else {console.log("La sottrazione NON è uguale a 8")}
 
 
 
