@@ -17,15 +17,9 @@ if (N1 > N2) {
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-const N3 = 5
 
-console.log (N1 != 5)
-console.log (N2 != 5)
-console.log (N3 != 5)
+if (N1 != 5) {console.log("not equal")} else {console.log("equal")}
 
-if (N1 != 5) {console.log("N1 not equal")} else {console.log("N1 equal")}
-if (N2 != 5) {console.log("N2 not equal")} else {console.log("N2 equal")}
-if (N3 != 5) {console.log("N3 not equal")} else {console.log("N3 equal")}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
