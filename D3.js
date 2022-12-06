@@ -18,7 +18,11 @@ if (N1 > N2) {
 */
 
 
-if (N1 != 5) {console.log("not equal")} else {console.log("equal")}
+if (N1 != 5) {
+  console.log("not equal")
+} else {
+  console.log("equal")
+}
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -42,8 +46,16 @@ console.log ("Divisibile per 5")
 const N4= 17
 const N5= 8
 
-if (N4 === 8) {console.log("N4 Uguale a 8")} else if (N5 === 8) {console.log("N5 uguale a 8")} 
-if (N4 - N5 === 8) {console.log("La sottrazione è uguale a 8")} else {console.log("La sottrazione NON è uguale a 8")}
+if (N4 === 8) {
+  console.log("N4 Uguale a 8")
+} else if (N5 === 8) {
+  console.log("N5 uguale a 8")
+} 
+if (N4 - N5 === 8) {
+  console.log("La sottrazione è uguale a 8")
+} else {
+  console.log("La sottrazione NON è uguale a 8")
+}
 
 
 
@@ -55,12 +67,21 @@ if (N4 - N5 === 8) {console.log("La sottrazione è uguale a 8")} else {console.l
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let totalShoppingCart = 45
+let totalShoppingCart = 55
 let totalShoppingCart1 = 60
 const shippingCosts = 10
 
-if (totalShoppingCart < 50) {console.log("Totale da pagare:", totalShoppingCart+shippingCosts ,"Compresa spedizione di 10")} else {console.log ("Totale da pagare:",totalShoppingCart)}
-if (totalShoppingCart1 < 50) {console.log("Totale da pagare:", totalShoppingCart1+shippingCosts , "Compresa spedizione di 10")} else {console.log ("Totale da pagare:",totalShoppingCart1)}
+if (totalShoppingCart < 50) {
+  console.log("Totale da pagare:", totalShoppingCart+shippingCosts ,"Compresa spedizione di 10")
+} else {
+  console.log ("Totale da pagare:",totalShoppingCart)
+}
+/* if (totalShoppingCart1 < 50) {
+  console.log("Totale da pagare:", totalShoppingCart1+shippingCosts , "Compresa spedizione di 10")
+} else {
+  console.log ("Totale da pagare:",totalShoppingCart1)
+}*/
+
 
 
 /* ESERCIZIO 6
@@ -72,8 +93,13 @@ if (totalShoppingCart1 < 50) {console.log("Totale da pagare:", totalShoppingCart
 
 totalShoppingCart = totalShoppingCart * 0.8
 totalShoppingCart1 = totalShoppingCart1 * 0.8
-if (totalShoppingCart < 50) {console.log("Totale da pagare:", totalShoppingCart+shippingCosts ,"Compresa spedizione di 10")} else {console.log ("Totale da pagare:",totalShoppingCart)}
-if (totalShoppingCart1 < 50) {console.log("Totale da pagare:", totalShoppingCart1+shippingCosts , "Compresa spedizione di 10")} else {console.log ("Totale da pagare:",totalShoppingCart1)}
+if (totalShoppingCart < 50) {
+  console.log("Totale da pagare:", totalShoppingCart+shippingCosts ,"Compresa spedizione di 10")
+} else {console.log ("Totale da pagare:",totalShoppingCart)
+}
+/*if (totalShoppingCart1 < 50) {
+  console.log("Totale da pagare:", totalShoppingCart1+shippingCosts , "Compresa spedizione di 10")
+} else {console.log ("Totale da pagare:",totalShoppingCart1)}*/
 
 
 /* ESERCIZIO 7
@@ -113,8 +139,11 @@ const numero = 10;
 
 const risultato1 = (numero % 2);
 
-if (risultato1 > 0) {console.log ("Numero dispari!")}
-else {console.log("Numero pari!")};
+if (risultato1 > 0) {
+  console.log ("Numero dispari!")
+} else {
+  console.log("Numero pari!")
+};
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
