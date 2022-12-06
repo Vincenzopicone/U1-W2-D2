@@ -4,8 +4,8 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const N1 = 30
-const N2 = 58
+let N1 = 30
+let N2 = 58
 
 if (N1 > N2) {
   console.log("Il maggiore è n1")
@@ -29,7 +29,7 @@ if (N1 != 5) {console.log("not equal")} else {console.log("equal")}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let risultato3 = (25 % 5)
+let risultato3 = (25 % 5 === 0)
 
 console.log ("Divisibile per 5")
 
